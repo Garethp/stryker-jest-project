@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "commonjs",
+    "lib": ["es2016", "es2017.object", "es2017.string", "dom"],
+    "declaration": false,
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": false,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false,
+    "typeRoots": ["../node_modules/@types", "./node_modules/@types", "./node_modules/common/src/types"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "preserveSymlinks": true
+  },
+  "exclude": ["node_modules", ".history", "pipeline", "**/*.spec.ts"]
+}
